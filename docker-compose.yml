@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  web:
+    image: javacursos.azurecr.io/mi-aplicacion-web:latest
+    ports:
+      - "8080:80"
